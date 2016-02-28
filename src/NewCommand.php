@@ -83,7 +83,7 @@ class NewCommand extends Command
      */
     protected function download($zipFile)
     {
-        $response = (new Client)->get('http://cabinet.laravel.com/latest_laravel_hackathon_starter.zip');
+        $response = (new Client)->get('https://github.com/unicodeveloper/laravel-hackathon-starter/archive/master.zip');
         file_put_contents($zipFile, $response->getBody());
 
         return $this;
