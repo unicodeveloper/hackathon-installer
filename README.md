@@ -28,7 +28,7 @@ However, if you are not using Homestead, you will need to make sure your server 
 
 Laravel utilizes [Composer](http://getcomposer.org) to manage its dependencies. So, before using Laravel, make sure you have Composer installed on your machine.
 
-#### Via Laravel Installer
+#### Via Laravel Hackathon Starter Installer
 
 First, download the Laravel Hackathon Starter Pack Installer using Composer:
 

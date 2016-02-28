@@ -1,6 +1,8 @@
 {
     "name": "unicodeveloper/hackathon-installer",
     "description": "Laravel Hackathon Starter Pack Installer",
+    "keywords": ["larathon"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Prosper Otemuyiwa",
