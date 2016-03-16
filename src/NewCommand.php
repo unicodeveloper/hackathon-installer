@@ -83,7 +83,7 @@ class NewCommand extends Command
      */
     protected function download($zipFile)
     {
-        $response = (new Client)->get('http://goodheads.io/larathon.zip');
+        $response = (new Client)->get('https://s3-us-west-2.amazonaws.com/goodheads/larathon.zip');
         file_put_contents($zipFile, $response->getBody());
 
         return $this;
